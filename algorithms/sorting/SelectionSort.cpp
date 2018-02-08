@@ -4,7 +4,7 @@
    Therefore, Selection Sort is Slow
    
    Added Notes:
-   // Add notes here 101//
+   // Add notes here 10100//
 
    //
    Code Improvement: "(n-2)" for the first loop, instead of "(n-1)"
