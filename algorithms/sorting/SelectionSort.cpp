@@ -65,7 +65,14 @@ int main(){
   Algorithm World
   https://www.youtube.com/watch?v=s5P3uZBexKM
   
-  
+  randerson112358
+  https://www.youtube.com/watch?v=p2ZACFqMZlI
+
+  Himanshu Sir
+  https://www.youtube.com/watch?v=Zbo4__XZEeM&t=187s
+
+  Saurabh Shukla Sir
+  https://www.youtube.com/watch?v=_lqhHiPmg6g
 
   
   
