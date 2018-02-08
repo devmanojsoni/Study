@@ -1,10 +1,12 @@
 /* Example of Selection Sort Algorithm
-   Time complexity of Selection Sort is o(n^2)
-   i.e Big Oh of n-Square (say)
-   Big Oh of n-square is not considered the
-   best running time for an algorithm.
+   Time complexity: Big Oh of n-square i.e Big Oh of n-Square (say)
+   Big Oh of n-square is not considered as the best running time for an algorithm.
    Therefore, Selection Sort is Slow
    
+   Added Notes:
+   // Add notes here
+   
+   //
    Code Improvement: "(n-2)" for the first loop, instead of "(n-1)"
 */
 /* #######################Starts here######################### */
