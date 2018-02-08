@@ -4,6 +4,8 @@
    Big Oh of n-square is not considered the
    best running time for an algorithm.
    Therefore, Selection Sort is Slow
+   
+   Code Improvement: "(n-2)" for the first loop, instead of "(n-1)"
 */
 /* #######################Starts here######################### */
 #include<iostream>
