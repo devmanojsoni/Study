@@ -4,8 +4,8 @@
    Therefore, Selection Sort is Slow
    
    Added Notes:
-   // Add notes here
-   
+   // Add notes here //
+
    //
    Code Improvement: "(n-2)" for the first loop, instead of "(n-1)"
 */
