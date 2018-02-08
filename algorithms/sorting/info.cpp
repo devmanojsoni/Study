@@ -11,3 +11,4 @@
 // if you see M, that means its modified
 // Stage Changes by clicking +
 // Commit Changes and Push
+// V V I -- "Before Changing Branch, save, commit all changes and push"
