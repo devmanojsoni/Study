@@ -90,7 +90,6 @@ void printArray(string str, int seti, int n) {
         // (n+1) time if i<n runs (n+1) times --equation(3.a)
         // n time if i<n runs n times --equation(3.b)
 
-        // " --count" << (n+1)-i-1 
         cout << str << endl;
     }
 }
