@@ -21,7 +21,7 @@ using namespace std;
     }
 */
 
-void SelectionSort(int A[], int n){
+int SelectionSort(int A[], int n){
     for(int i=0; i<(n-2); i++){ // Enter the first pass
         int iMin = i;// Say i(th) is the minimum element,
         // In first case say index 0 is the minimum
