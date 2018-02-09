@@ -58,4 +58,10 @@ int main(){
     Sorting In Place: Yes
     Stable: Yes
     Due to its simplicity, bubble sort is often used to introduce the concept of a sorting algorithm.
+
+    References:
+    Himanshu Sir
+    https://www.youtube.com/watch?v=soRj70FmX74
+
+    GeeksForGeeks, MyCodeSchool, Algorithm World(YouTube)
 */
