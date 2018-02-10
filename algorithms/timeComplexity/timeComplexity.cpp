@@ -1,3 +1,12 @@
+/*
+    C++ program to better understand "for loops"
+    -- Simulation of "for loop"
+    -- Just to visulize some cases
+    -- And analyse time complexity
+    Written by Manoj Kumar
+    
+*/
+
 // #include<stdio.h>
 #include<iostream>
 #include<string> // for string class
@@ -51,22 +60,31 @@ void printArray(string str, int seti, int n) {
     // Now "int i=0;" this statement will execute
     // exactly 
     // 1 time --equation(1)
-    for (int i=seti; i<n; i++) {
+    for (int i=seti; i<=n; i++) {
         // Let say "n" is 10, then how many time
         // the statement "i<n" will execute ?
         // Let's see
+        //**********************************************
+        // FIRST TAB           ||          SECOND TAB //
+        //**********************************************
         // Is 0<10 ? Yes // Ommit this if "i" starts from 1
-        // Is 1<10 ? Yes
-        // Is 2<10 ? Yes
-        // Is 3<10 ? Yes
-        // Is 4<10 ? Yes
-        // Is 5<10 ? Yes
-        // Is 6<10 ? Yes
-        // Is 7<10 ? Yes
-        // Is 8<10 ? Yes
-        // Is 9<10 ? Yes
-        // Is 10<10 ? No
+        // Is 1<10 ? Yes | //Other Checks Is 1<=10 ? Yes
+        // Is 2<10 ? Yes |                Is 2<=10 ? Yes
+        // Is 3<10 ? Yes |                Is 3<=10 ? Yes
+        // Is 4<10 ? Yes |                Is 4<=10 ? Yes
+        // Is 5<10 ? Yes |                Is 5<=10 ? Yes
+        // Is 6<10 ? Yes |                Is 6<=10 ? Yes
+        // Is 7<10 ? Yes |                Is 7<=10 ? Yes
+        // Is 8<10 ? Yes |                Is 8<=10 ? Yes
+        // Is 9<10 ? Yes |                Is 9<=10 ? Yes
+        // Is 10<10 ? No |                Is 10<=10 ? Yes
+        //               |                Is 11<=10 ? No // So if started
+                                          // from 0 then (n+2) time
+                                          // and you can see if it starts
+                                          // from 1, it is taking (n+1) time
 
+        // From the first tab,
+        //***********************************************
         // So the statement "i<n" will be executed exactly
         // 10 + 1 Time, in this case, when n was 10
         // That means (n+1) time, when "i" was set to zero
