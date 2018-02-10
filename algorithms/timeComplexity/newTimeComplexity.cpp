@@ -1,3 +1,10 @@
+/*
+    C++ program to better understand "for loops"
+    -- Simulation of "for loop"
+    Written by Manoj Kumar
+    
+*/
+
 //#include<stdio.h>
 #include<iostream>
 #include<string>
@@ -67,13 +74,10 @@ string showMsgPostPlus(int i, int n, int ret){
     return A[ret];
 }
 
-void forLoopPostIncInfo(int seti, int n, int inc, int opType) {
-  // There must be a way to check the
-  // correct variables before passing into the loop
-    
+void forLoopPostIncInfo(int seti, int n, int inc, int opType) {  
     // Handle Infinite loop
     /********************************************
-    
+     *      Pseudo Code --
             **if seti < n // infinite loop
 
             for(i=0; i<=10; i--); 
@@ -96,8 +100,7 @@ void forLoopPostIncInfo(int seti, int n, int inc, int opType) {
             is seti < n // condition false
             Throw infinite loop not recommended
     *************************************************/
-    //int IsIncNegative = inc;
-    //IsIncNegative = -1*(inc);
+    
     cout << "Pass arguments: forLoopPostIncInfo(int seti, int n, int inc, int opType)" << endl;
     cout << ">> seti is i" << endl;
     cout << ">> n is num" << endl;
@@ -111,7 +114,7 @@ void forLoopPostIncInfo(int seti, int n, int inc, int opType) {
     cout << ">> n = " << n << endl;
     cout << ">> inc = " << inc << endl;
     cout << ">> opType = " << opType << endl;
-    
+
     if(opType == 0 && inc<=-1){
         //bool incIsMinusOne = false;
         if(inc==-1){
@@ -200,6 +203,8 @@ void forLoopPostIncInfo(int seti, int n, int inc, int opType) {
         }
     }
 
+    // There must be a way to check the
+    // correct variables before passing into the loop
     int i = seti;
     int k = seti;
     int p = seti;
