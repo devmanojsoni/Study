@@ -2,7 +2,8 @@
     C++ program to better understand "for loops"
     -- Simulation of "for loop"
     Written by Manoj Kumar
-    
+    // NEEDS SOME IMPROVEMENT
+
 */
 
 //#include<stdio.h>
@@ -224,9 +225,9 @@ void forLoopPostIncInfo(int seti, int n, int inc, int opType) {
             cout << "i = " + to_string(i) << endl;
             string getStrConcatPlus = showMsgPostPlus(i,n,0);
             cout << getStrConcatPlus << endl;
-                if(i==n-inc){
-                    cout << "i = " + to_string(n) << endl;
-                    string getStrPlusEnd = showMsgPostPlus(i,n,1);
+                if(i<=n){
+                    cout << "i = " + to_string(inc+i) << endl;
+                    string getStrPlusEnd = showMsgPostPlus(inc+i,n,1);
                     cout << getStrPlusEnd << endl;
                     
                 }
@@ -320,13 +321,37 @@ void forLoopPostIncInfo(int seti, int n, int inc, int opType) {
 }//Function ends here
 
 int main() {
-    //string str;
-    //str = "Hi how are you"; //for(i=100,i>10,i--)
-    int i = 10;
-    int n = 0;
-    int inc = -1;
-    int opt = 3;
-    //int inc = 1;
+    // Contruct the for loop
+    // for(int i=0; i<n; i++)
+    // suppose if you want to initialize the loop by 0
+    // then do this
+    int i = 0;
+    // if you want to give the value of 10 to n
+    // then do this
+    int n = 10;
+    // if you want to increment by i.e i++
+    // then do this
+    int inc = 1;
+    // else if you wanna decrement by then
+    // then do this
+    // int inc = -1;
+    
+    // else if you wanna increment or decrement by
+    // 2 or 3, then do "int inc = 2" or "int inc = -3"
+    // respectively
+
+    int opt = 0; // I have used "<" here
+    // now for "i<n", i.e "<" operator use opt = 0
+    // now for "i>n", i.e ">" operator  use opt = 1
+    // now for "i<=n", i.e "<=" operator  use opt = 2
+    // now for "i>=n", i.e ">=" operator  use opt = 3
+
+    // How my loop will be constructed ?
+    // I have i=0, n=10, inc=1 and opt=0
+    // So my "for loop" will be constructed like this
+    // ************ for(int i=0;i<n;i++) ************
+
+
     forLoopPostIncInfo(i, n, inc, opt);
     // return 0;
 }
